@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="light_theme.css" id="light-theme"  disabled>
+    <link rel="stylesheet" href="dark_theme.css" id="dark-theme">
+</head>
+<body>
+    <header>
+        <h1><a href="#top">Portfolio</a></h1>
+
+        <nav>
+            <a href="#education" class="links">Education</a>
+            <a href="#experience" class="links">Work Experience/Internships</a>
+            <a href="#projects" class="links">Projects</a>
+            <a href="#contact" class="links">Contact Me</a>
+            <a href="admin.html" class="links">Admin Login</a>
+        </nav>
+
+        <div class="header-buttons">
+            <button id="theme-toggle">Toggle Theme</button>
+        </div>
+    </header>
+
+    <main id="top">
+        <section id="info">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I am Ayush Kadam.
+                I am an engineering student interested in
+                technology, programming and web development.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <div class="education-container">
+
+                <div class="education-card">
+                    <h3>Degree in Information Technology</h3>
+                    <p>Chhatrapati Shivaji University</p>
+                    <p>Year: 2024 - Present</p>
+                    <p>Current CGPA: 8.2</p>
+                </div>
+
+                <div class="education-card">
+                    <h3>Diploma in Information Technology</h3>
+                    <p>Bharti Vidhyapeeth</p>
+                    <p>Year: 2021 - 2024</p>
+                    <p>Percentage: 72.89</p>
+                </div>
+
+                <div class="education-card">
+                    <h3>Secondary (10th)</h3>
+                    <p>MNR</p>
+                    <p>Year: 2021</p>
+                    <p>Percentage: 72.67</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="experience">
+            <h2>Work Experience / Internships</h2>
+
+            <div class="experience-container">
+
+                <div class="experience-card">
+                    <h3>Internship in Web Development</h3>
+                    <p>Interzvalley</p>
+                    <p>Duration: September 2026 - November 2023</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="projects-container">
+
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>It includes an interactive contact form that stores user messages in Google Sheets and an admin login system to access submitted responses.</p>
+                    <br>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <div class="container">
+
+                <div class="contact-info">
+                    <p><strong>Email:</strong> ayushkadam246@gmail.com</p>
+                    <p><strong>Phone:</strong> 7977989798</p>
+                    <p><strong>Location:</strong> Kamothe, Mumbai</p>
+                </div>
+
+                <form id= "contact-form">
+                    <input class="input" id="name" type="text" placeholder="Your Name" required>
+
+                    <input class="input" id="email"  type="email" placeholder="Your Email" required>
+
+                    <textarea class="textarea" id="msg" placeholder="Your Message" rows="5" required></textarea>
+
+                    <button class="button" type="submit">Send Message</button>
+                </form>
+
+            </div>
+        </section>
+
+        <section id="user-responses">
+            <h2>User Responses</h2>
+        </section>
+
+    </main>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

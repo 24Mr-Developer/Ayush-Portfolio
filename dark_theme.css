@@ -1,0 +1,88 @@
+
+/* Body */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Header */
+header {
+    background-color: #1e1e1e;
+    border-bottom-color: #444444;
+}
+
+/* Portfolio Title */
+header h1 a {
+    color: #ffffff;
+}
+
+/* Navigation Links */
+nav a,
+.links,
+.admin-btn {
+    color: #ffffff;
+}
+
+/* Sections */
+section {
+    border-bottom-color: #444444;
+}
+
+/* Education Cards */
+.education-card {
+    background-color: #1e1e1e;
+    border-color: #444444;
+}
+
+/* Experience Cards */
+.experience-card {
+    background-color: #1e1e1e;
+    border-color: #444444;
+}
+
+/* Project Cards */
+.project-card {
+    background-color: #1e1e1e;
+    border-color: #444444;
+}
+
+.project-card a {
+    color: #90caf9;
+}
+
+/* Contact Form */
+.input,
+.textarea {
+    background-color: #252525;
+    color: #ffffff;
+    border-color: #555555;
+}
+
+/* Contact Button */
+.button {
+    background-color: #90caf9;
+    color: #121212;
+}
+
+/* Theme Toggle Button */
+#theme-toggle {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555555;
+}
+
+/* Admin Login */
+#admin input {
+    background-color: #252525;
+    color: #ffffff;
+    border-color: #555555;
+}
+
+#admin button {
+    background-color: #90caf9;
+    color: #121212;
+}
+
+#admin a {
+    color: #90caf9;
+}
