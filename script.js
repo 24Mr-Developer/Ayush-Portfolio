@@ -79,10 +79,9 @@ if (contactForm) {
             let result = await response.json();
 
             if (!result.success) {
-                throw new Error("Failed to submit message");
+                alert("Failed to submit message");
             }
 
-            console.log(result);
             alert("Message submitted successfully!");
 
             contactForm.reset();
@@ -121,7 +120,6 @@ if (adminForm) {
             let result = await response.json();
 
             if(result.success){
-                alert("Login successful!");
                 sessionStorage.setItem("adminLoggedIn", "true");
                 window.location.href = "index.html"; 
             } else {
