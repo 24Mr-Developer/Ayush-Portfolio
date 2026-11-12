@@ -80,6 +80,60 @@ nav a {
     }
 }
 
+@media (max-width: 768px) {
+    #theme-toggle {
+        animation: none;
+    }
+}
+
+
+/* Hide hamburger button on desktop */
+#menu-toggle {
+    display: none;
+}
+
+/* Mobile Navbar */
+@media (max-width: 768px) {
+
+    header {
+        padding: 12px 15px;
+    }
+
+    #menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        background: none;
+        border: none;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        gap: 20px;
+        background: inherit;
+        border-bottom: 1px solid;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    .header-buttons {
+        gap: 5px;
+    }
+
+    #theme-toggle {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+}
+
 
 /* Admin Login Link */
 .admin-btn {

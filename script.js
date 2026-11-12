@@ -1,3 +1,18 @@
+let menuToggle = document.getElementById("menu-toggle");
+let nav = document.querySelector("nav");
+
+if (menuToggle && nav) {
+    menuToggle.addEventListener("click", function() {
+        nav.classList.toggle("active");
+
+        menuToggle.setAttribute(
+            "aria-expanded",
+            nav.classList.contains("active")
+        );
+    });
+}
+
+
 
 let counter = 0;
 
